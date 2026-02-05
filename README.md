@@ -1,6 +1,8 @@
 # **DeepSeek-OCR-2-Demo**
 
-A Gradio-based interactive web application for **DeepSeek-OCR-2**, a multimodal model designed for advanced optical character recognition and document understanding. This application allows users to perform various OCR tasks such as converting documents to markdown, extracting text, locating specific text within images, and parsing figures, all through a user-friendly interface. This demo leverages the `deepseek-ai/DeepSeek-OCR-2` model with `flash-attention-2` for efficient inference on NVIDIA GPUs.
+> A Gradio-based interactive web application for **DeepSeek-OCR-2**, a multimodal model designed for advanced optical character recognition and document understanding. This application allows users to perform various OCR tasks such as converting documents to markdown, extracting text, locating specific text within images, and parsing figures, all through a user-friendly interface. This demo leverages the `deepseek-ai/DeepSeek-OCR-2` model with `flash-attention-2` for efficient inference on NVIDIA GPUs.
+
+<img width="1918" height="1343" alt="Screenshot 2026-02-05 at 13-48-41 DeepSeek-OCR-2-Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/10ea76a0-6813-4118-a04c-f236b42db2e7" />
 
 ## Features
 
@@ -18,9 +20,6 @@ A Gradio-based interactive web application for **DeepSeek-OCR-2**, a multimodal 
 * **Resolution Control**: Offers multiple processing resolutions (Default, Quality, Fast, No Crop, Small) to balance speed and accuracy.
 * **Markdown Preview**: Renders extracted text as markdown for easy verification.
 * **Cropped Element Extraction**: Automatically extracts and displays cropped images of detected figures or regions of interest.
-
-<img width="1647" height="852" alt="Screenshot 2026-01-28 074204" src="https://github.com/user-attachments/assets/ffad4a68-2a78-4ca7-a605-22b3f7adb5fc" />
-<img width="1618" height="856" alt="Screenshot 2026-01-28 074226" src="https://github.com/user-attachments/assets/135396bd-19ad-4bd1-8acd-0079acd654b5" />
 
 ## Prerequisites
 
